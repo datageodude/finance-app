@@ -14,9 +14,9 @@ Adds one backend resource end to end, matching this project's conventions.
 
 ## Canonical reference
 Read the equivalent files for an existing resource and copy their shape before
-writing anything. (Until Phase 1 lands the first resources, derive the shape from the
-Phase 1 schema deep-dive in `planning/PLAN.md` and `src/CONTEXT.md`, then update this
-section to point at the real files once they exist — e.g. the `accounts` resource.)
+writing anything. Use `accounts` as the reference: `src/backend/api/accounts.py`
+(router), `src/backend/services/accounts.py` (service), `src/backend/models/account.py`
+(model), `src/backend/schemas/accounts.py` (schemas).
 
 ## Confirm with the user before writing anything
 1. **Resource name** — singular snake_case (`account`) and plural for the URL (`accounts`).
@@ -40,10 +40,10 @@ Add the import and an entry in `__all__`. Alembic autogenerate only sees registe
 models — do not skip this.
 
 ### 3. Schemas — `src/backend/schemas/<name>.py`
-- `XCreate` — required + defaulted fields.
-- `XUpdate` — all fields optional (`... | None = None`).
-- `XOut` — read shape, `model_config = ConfigDict(from_attributes=True)`, includes
-  `id`, FK id(s), `created_at`.
+Purpose-specific Pydantic models shaped to what the endpoint actually returns or
+accepts — not a generic Create/Update/Out triple. Look at `schemas/accounts.py` or
+`schemas/spend.py` for the pattern: lean response models, `model_config =
+ConfigDict(from_attributes=True)` where ORM objects are returned directly.
 
 ### 4. Service — `src/backend/services/<plural>.py`  ⭐ the spine
 - The CRUD/business functions: `list_x`, `get_x`, `create_x`, `update_x`, `delete_x`,

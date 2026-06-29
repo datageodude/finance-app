@@ -11,9 +11,8 @@ is **Svelte**, delivered as a **PWA** the family opens on a phone: swipeable pan
 
 ## Canonical reference
 Read the equivalent files for an existing page and copy their shape before writing
-anything. (Until Phase 4 lands the first pages, derive the shape from the page flow in
-`planning/PLAN.md` and `src/CONTEXT.md`, then update this section to point at the real
-files once they exist.)
+anything. Use `src/frontend/src/routes/(app)/cash/+page.svelte` (simple data display)
+or `src/frontend/src/lib/api/spend.ts` (API client) as the reference.
 
 The five panels, in order: **Cash reserves → Spend vs budget → Flagged → Loans →
 Forecast.**
@@ -31,8 +30,8 @@ Forecast.**
 - Mirror the shape of an existing client exactly.
 - Export TypeScript interfaces (`X`, `XCreate`, `XUpdate`) and async functions
   (`listX`, `getX`, `createX`, `updateX`, `deleteX`).
-- Use the shared fetch wrapper / client (sends the session cookie/credentials), never
-  a raw bare `fetch` with no auth handling.
+- Use raw `fetch` with a relative `/api/...` path — same-origin deployment means the
+  browser sends the session cookie automatically. See existing clients for the pattern.
 - URL paths must match the FastAPI router exactly.
 - **Money is rendered from string/`Decimal` values — never parse into a JS float for
   arithmetic.** Format for display only.
