@@ -1,0 +1,4 @@
+01/02/2024,Balance,1000.00,Current Balance for account A1
+01/02/2024,Balance,990.01,Available Balance for account A1
+Transaction Date, Amount, Reference, Balance
+01/02/2024,-9.99,POS (Cr) purchase000000_EXAMPLE *SAMPLE SUBSCR,990.01

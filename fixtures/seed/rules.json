@@ -1,0 +1,74 @@
+[
+  {
+    "match": "PAYROLL",
+    "category": "Income"
+  },
+  {
+    "match": "INTEREST PAID",
+    "category": "Income"
+  },
+  {
+    "match": "TRANSFER",
+    "category": "Transfers"
+  },
+  {
+    "match": "SAMPLE GROCER",
+    "category": "Groceries"
+  },
+  {
+    "match": "FRESH MART",
+    "category": "Groceries"
+  },
+  {
+    "match": "SAMPLE FUEL",
+    "category": "Fuel"
+  },
+  {
+    "match": "PETRO",
+    "category": "Fuel"
+  },
+  {
+    "match": "SAMPLE POWER",
+    "category": "Utilities"
+  },
+  {
+    "match": "SAMPLE WATER",
+    "category": "Utilities"
+  },
+  {
+    "match": "SAMPLE INSURE",
+    "category": "Insurance"
+  },
+  {
+    "match": "HOME LOAN",
+    "category": "Mortgage"
+  },
+  {
+    "match": "SAMPLE CAFE",
+    "category": "Dining"
+  },
+  {
+    "match": "SAMPLE DINER",
+    "category": "Dining"
+  },
+  {
+    "match": "SAMPLE STREAM",
+    "category": "Subscriptions"
+  },
+  {
+    "match": "SAMPLE MUSIC",
+    "category": "Subscriptions"
+  },
+  {
+    "match": "SAMPLE PHARMACY",
+    "category": "Medical"
+  },
+  {
+    "match": "SAMPLE MEDICAL",
+    "category": "Medical"
+  },
+  {
+    "match": "SAMPLE VETCARE",
+    "category": "Medical"
+  }
+]

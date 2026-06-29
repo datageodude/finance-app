@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Income",
+    "budget": null
+  },
+  {
+    "name": "Transfers",
+    "budget": null
+  },
+  {
+    "name": "Groceries",
+    "budget": "900.00"
+  },
+  {
+    "name": "Fuel",
+    "budget": "260.00"
+  },
+  {
+    "name": "Utilities",
+    "budget": "240.00"
+  },
+  {
+    "name": "Insurance",
+    "budget": "150.00"
+  },
+  {
+    "name": "Mortgage",
+    "budget": "1800.00"
+  },
+  {
+    "name": "Dining",
+    "budget": "200.00"
+  },
+  {
+    "name": "Subscriptions",
+    "budget": "40.00"
+  },
+  {
+    "name": "Medical",
+    "budget": "120.00"
+  },
+  {
+    "name": "Uncategorised",
+    "budget": null
+  }
+]

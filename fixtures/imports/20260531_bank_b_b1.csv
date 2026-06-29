@@ -1,0 +1,13 @@
+Transaction Date,Details,Account,Category,Subcategory,Tags,Notes,Debit,Credit,Balance,Original Description
+04 Mar 2026,Fresh Mart,Everyday Transaction Account,Groceries,Groceries,,,72.10,,1427.90, FRESH MART 0291 SUBURB 02
+09 Mar 2026,Sample Diner,Everyday Transaction Account,Dining,Dining,,,52.00,,1375.90, SAMPLE DINER 7781 SUBURB 11
+18 Mar 2026,Fresh Mart,Everyday Transaction Account,Groceries,Groceries,,,110.45,,1265.45, FRESH MART 0291 SUBURB 02
+22 Mar 2026,Petro,Everyday Transaction Account,Fuel,Fuel,,,60.00,,1205.45, PETRO 5540 SUBURB 04
+04 Apr 2026,Fresh Mart,Everyday Transaction Account,Groceries,Groceries,,,72.10,,1133.35, FRESH MART 0291 SUBURB 02
+09 Apr 2026,Sample Diner,Everyday Transaction Account,Dining,Dining,,,52.00,,1081.35, SAMPLE DINER 7781 SUBURB 11
+18 Apr 2026,Fresh Mart,Everyday Transaction Account,Groceries,Groceries,,,110.45,,970.90, FRESH MART 0291 SUBURB 02
+22 Apr 2026,Petro,Everyday Transaction Account,Fuel,Fuel,,,60.00,,910.90, PETRO 5540 SUBURB 04
+04 May 2026,Fresh Mart,Everyday Transaction Account,Groceries,Groceries,,,72.10,,838.80, FRESH MART 0291 SUBURB 02
+09 May 2026,Sample Diner,Everyday Transaction Account,Dining,Dining,,,52.00,,786.80, SAMPLE DINER 7781 SUBURB 11
+18 May 2026,Fresh Mart,Everyday Transaction Account,Groceries,Groceries,,,110.45,,676.35, FRESH MART 0291 SUBURB 02
+22 May 2026,Petro,Everyday Transaction Account,Fuel,Fuel,,,60.00,,616.35, PETRO 5540 SUBURB 04

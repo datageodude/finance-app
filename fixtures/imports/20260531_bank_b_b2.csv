@@ -1,0 +1,7 @@
+Transaction Date,Details,Account,Category,Subcategory,Tags,Notes,Debit,Credit,Balance,Original Description
+15 Mar 2026,Home Loan Repayment,Home Loan Account,Mortgage,Mortgage,,,,1800.00,-345200.00, HOME LOAN REPAYMENT RECEIVED
+15 Mar 2026,Interest Charge,Home Loan Account,Mortgage,Mortgage,,,1718.00,,-346918.00, INTEREST CHARGE HOME LOAN
+15 Apr 2026,Home Loan Repayment,Home Loan Account,Mortgage,Mortgage,,,,1800.00,-345118.00, HOME LOAN REPAYMENT RECEIVED
+15 Apr 2026,Interest Charge,Home Loan Account,Mortgage,Mortgage,,,1718.00,,-346836.00, INTEREST CHARGE HOME LOAN
+15 May 2026,Home Loan Repayment,Home Loan Account,Mortgage,Mortgage,,,,1800.00,-345036.00, HOME LOAN REPAYMENT RECEIVED
+15 May 2026,Interest Charge,Home Loan Account,Mortgage,Mortgage,,,1718.00,,-346754.00, INTEREST CHARGE HOME LOAN

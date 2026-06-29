@@ -1,0 +1,45 @@
+[
+  {
+    "code": "a1",
+    "bank": "bank_a",
+    "type": "transaction",
+    "display_name": "Bank A Everyday",
+    "bank_account_name": "Everyday Transaction Account",
+    "opening_balance": "3000.00"
+  },
+  {
+    "code": "a2",
+    "bank": "bank_a",
+    "type": "savings",
+    "display_name": "Bank A Saver",
+    "bank_account_name": "Online Saver Account",
+    "opening_balance": "12000.00"
+  },
+  {
+    "code": "b1",
+    "bank": "bank_b",
+    "type": "transaction",
+    "display_name": "Bank B Everyday",
+    "bank_account_name": "Everyday Transaction Account",
+    "opening_balance": "1500.00"
+  },
+  {
+    "code": "b2",
+    "bank": "bank_b",
+    "type": "loan",
+    "display_name": "Bank B Home Loan",
+    "bank_account_name": "Home Loan Account",
+    "opening_balance": "-350000.00",
+    "original_amount": "360000.00",
+    "interest_rate": "5.89",
+    "term_months": 360
+  },
+  {
+    "code": "b3",
+    "bank": "bank_b",
+    "type": "credit",
+    "display_name": "Bank B Credit Card",
+    "bank_account_name": "Platinum Credit Card",
+    "opening_balance": "-800.00"
+  }
+]

@@ -1,0 +1,49 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Privacy boundary — real financial data must never enter this repo.
+# See docs/data-handling.md for the full policy.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Real bank CSVs are guilty until proven synthetic: ignore EVERY .csv, then
+# explicitly allow only the known-synthetic zones — the two format samples and the
+# generated test corpus under fixtures/. A real export dropped ANYWHERE ELSE in the
+# tree is ignored by default; you'd have to `git add -f` it on purpose.
+*.csv
+!reference/bank_a.csv
+!reference/bank_b.csv
+!fixtures/**/*.csv
+
+# Private runtime data — the live DB, real imports, and dumps live OUTSIDE the
+# repo (on the offline instance). These entries are a backstop in case anything
+# ever lands inside the working tree.
+/data/
+/imports/
+/backups/
+*.dump
+*.sql.gz
+pg_dump*
+*.sqlite
+*.sqlite3
+
+# Secrets — config values live in .env (never committed); .env.example is the
+# tracked, placeholder-only template.
+.env
+.env.*
+!.env.example
+
+# Python build artefacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+dist/
+.ruff_cache/
+.pytest_cache/
+
+# Node / SvelteKit build artefacts
+node_modules/
+.svelte-kit/
+build/
+.output/
+
+# Misc
+.DS_Store
